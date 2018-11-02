@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0">
+
+    <include layout="@layout/title" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <Spinner
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:id="@+id/s1"
+        android:layout_marginLeft="10dp"
+        android:background="#FFFFFF"
+        android:entries="@array/nianji">
+
+    </Spinner>
+    <Spinner
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:id="@+id/s2"
+        android:entries="@array/bangfuleixing"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        >
+
+    </Spinner>
+    <Spinner
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:id="@+id/s3"
+        android:entries="@array/guanzhu"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+    </Spinner>
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+    </View>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_now"
+        android:background="#FFFFFF">
+    </ListView>
+</LinearLayout>

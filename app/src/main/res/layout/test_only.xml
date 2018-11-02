@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lzf.dai.main_student_message">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+        <include layout="@layout/title"/>
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+        </ListView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="学号"
+                android:textColor="#B4B4B9" />
+
+            <EditText
+                android:id="@+id/fnum"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@null"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="民族"
+                android:textColor="#B4B4B9" />
+
+            <EditText
+                android:id="@+id/fmingzu"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@null"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="职务"
+                android:textColor="#B4B4B9" />
+
+            <EditText
+                android:id="@+id/fzhiwu"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@null"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="爱好"
+                android:textColor="#B4B4B9" />
+
+            <EditText
+                android:id="@+id/faihao"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@null"
+                android:focusable="false" />
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="父亲姓名"
+                android:textColor="#B4B4B9" />
+
+            <EditText
+                android:id="@+id/ffuqinxingming"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@null"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="父亲单位"
+                android:textColor="#B4B4B9" />
+
+            <EditText
+                android:id="@+id/ffuqindanwei"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@null"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="父亲职务"
+                android:textColor="#B4B4B9" />
+
+            <EditText
+                android:id="@+id/ffuqinzhiwu"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@null"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="父亲联系方式"
+                android:textColor="#B4B4B9" />
+
+            <EditText
+                android:id="@+id/ffuqinlianxi"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@null"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <Button
+                android:id="@+id/xiugai"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="修改" />
+
+            <Button
+                android:id="@+id/genjin"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="跟进" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+

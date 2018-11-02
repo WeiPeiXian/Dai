@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/listView">
+
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:id="@+id/xueshengxinxi"
+                android:layout_marginLeft="10dp"
+                android:text="学生信息"/>
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:id="@+id/jiandangxinxi"
+                android:layout_marginLeft="10dp"
+                android:text="建档信息"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:text="家庭情况"
+                android:textColor="#B4B4B9"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp">
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:text="学习情况"
+                android:textColor="#B4B4B9"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp">
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:text="身心情况"
+                android:textColor="#B4B4B9"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp">
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:text="其他情况"
+                android:textColor="#B4B4B9"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="90dp"
+                android:id="@+id/xiugai"
+                android:text="修改"
+                android:background="@drawable/ooopic_xiugai"
+                />
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="90dp"
+                android:id="@+id/genjin"
+                android:text="跟进"
+                android:background="@drawable/ooopic"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

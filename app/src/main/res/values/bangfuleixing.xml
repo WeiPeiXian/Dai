@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bangfuleixing">
+        <item>帮扶类型</item>
+        <item>学业困难 </item>
+        <item>家庭困难 </item>
+        <item>心理困难</item>
+    </string-array>
+</resources>

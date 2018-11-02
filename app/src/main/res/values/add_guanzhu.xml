@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="add_guanzhu">
+        <item>一般关注</item>
+        <item>重点关注</item>
+        <item>非常关注</item>
+        <item>特殊关注</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="record">
+        <item>周联系简易记录表</item>
+        <item>面谈记录表</item>
+        <item>家长联系记录表</item>
+        <item>研讨及总结记录</item>
+    </string-array>
+</resources>

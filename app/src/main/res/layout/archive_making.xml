@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title"/>
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:text="姓名:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="100dp"
+            android:textSize="20sp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:text="学号:"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/studentID"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0">
+            <TextView
+                android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="家庭情况"
+            android:textSize="20sp"
+                android:gravity="left|top"/>
+
+        <EditText
+            android:id="@+id/jiating"
+            android:background="@drawable/textview_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            >
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="学习情况"
+            android:textSize="20sp"
+            android:gravity="left|top"/>
+
+        <EditText
+            android:id="@+id/xuexi"
+            android:background="@drawable/textview_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="身心情况"
+            android:textSize="20sp"
+            android:gravity="left|top"/>
+
+        <EditText
+            android:id="@+id/shenxin"
+            android:background="@drawable/textview_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0">
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="生活情况"
+                android:textSize="20sp"
+                android:gravity="left|top"/>
+
+            <EditText
+                android:id="@+id/life"
+                android:background="@drawable/textview_border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|top"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        >
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="其他情况"
+            android:textSize="20sp"
+            android:gravity="left|top"/>
+
+        <EditText
+            android:id="@+id/qita"
+            android:background="@drawable/textview_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="建档依据"
+                android:textSize="20sp"
+                android:gravity="left|top"/>
+
+            <!--<Button-->
+                <!--android:layout_width="85dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="@null"-->
+                <!--android:text="语音" />-->
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/jiandang"
+            android:background="@drawable/textview_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"/>
+    </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
